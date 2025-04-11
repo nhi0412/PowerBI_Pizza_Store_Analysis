@@ -188,8 +188,8 @@ Segmented Insights:
 
 **Categories Sales: Average Price vs. Quantity Correlation**
 
-- **Correlation Coefficient:** -0.95 (strong negative)
-- **Insight:** Higher-priced categories have lower sales volume
+- Correlation Coefficient: -0.95 (strong negative)
+- Insight: Higher-priced categories have lower sales volume
 
 Segmented Insights:
 
