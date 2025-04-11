@@ -70,7 +70,6 @@ A transactional dataset recording every pizza order placed throughout the year 2
 ⇒ Problem Statement: Store managers need a way to monitor real-time sales performance, product demand, and customer buying behavior to make quick, informed decisions on inventory and promotions.
 
 <img width="628" alt="Image" src="https://github.com/user-attachments/assets/bbd370ec-78f7-43df-8085-1acc8d6673b4" />
-Empathy Map
 
 ### Define Point of View (POV) - What's the core problem
 
