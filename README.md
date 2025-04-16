@@ -112,7 +112,7 @@ This metric reflects the core value the dashboard delivers to store managers:
 
 ### Overview
 
-<img width="850" alt="Image" src="https://github.com/user-attachments/assets/9b4613b8-4f84-4e58-b357-ae7da9efc62d" />
+<img width="850" alt="Image" src="https://github.com/user-attachments/assets/ea0e958e-b4a8-48cd-9897-a479c4c7ae16" />
 
 **Sales Trends & Seasonal Patterns**
 
@@ -142,71 +142,94 @@ Insight:
 
 **Category Performance**
 
-- Best-selling Category: Classic (highest revenue & quantity)
-- Veggie: Good quantity but lowest revenue → likely due to lower pricing
-- Supreme & Chicken: Similar quantity but different revenue levels
+- Classic pizzas have the highest sales and quantity sold, followed by Supreme
+- Veggie pizzas have quiet good sales but the lowest revenue => this can be the
+lowest price among all categories
+- Chicken, Veggie, and Supreme have quite the same quantity sold, but they greatly
+differ in the revenue.
 
 **Top & Bottom Products**
 
 - **Top 5 by Quantity:**
-    - Classic Deluxe Pizza
-    - Barbecue Chicken Pizza
-    - Hawaiian Pizza
-    - Pepperoni Pizza
-    - Thai Chicken Pizza
+    - The Big Meat Pizza
+    - The Thai Chicken Pizza
+    - The Five Cheese Pizza
+    - The Four Cheese Pizza
+    - The Classic Deluxe Pizza
 - **Bottom 5 by Quantity:**
-    - Brie Carre Pizza
-    - Mediterranean Pizza
-    - Calabrese Pizza
-    - Spinach Supreme Pizza
-    - Soppressata Pizza
+    - The Greek Pizza
+    - The Green Garden Pizza
+    - The Chicken Alfredo
+    - The Calabrese Pizza
+    - The Mexicana Pizza
 
 Insight: Use this to focus campaigns or discontinue low performers.
 
 **Size & Category Trends**
 
-- Popular Sizes: S, M, L
-    - Classic sells best in Size S
-    - Veggie and Chicken perform well in Size L
-- Underperforming Sizes: XL and XXL (minimal sales)
+Chicken:
+
+-Size L generates the most revenue (100K), followed by M (70K) and S (30K)
+
+-No revenue from XL or XXL
+
+Classic:
+
+-Size L, M, and S are relatively the same (70K)
+
+-XL and XXL have a small impact
+
+Supreme:
+
+-Size L generates the most revenue (90K), followed by M (70K) and S (50K)
+
+-No revenue from XL or XXL
+
+Veggies:
+
+-Size L generates the most revenue (100K), followed by M (60K) and S (30K)
+
+-No revenue from XL or XXL
 
 ### Correlation and Frequency
 
-<img width="849" alt="Image" src="https://github.com/user-attachments/assets/59ce23a6-5ca9-4f01-a7c1-1172d6a413e4" />
+<img width="849" alt="Image" src="https://github.com/user-attachments/assets/2f0e5cbb-a52b-4e9e-ba89-8d92e27661b3" />
 
 **Ingredient Sales: Correlation Between Quantity & Revenue**
 
-- Correlation Coefficient: +0.93 (strong positive)
-- Insight: Ingredients with high quantity sold also bring in more revenue.
+- Strong positive correlation: 1.0
 
-Segmented Insights:
+=> Ingredients with high quantities (buy more) tend to generate more revenue.
 
-- Top-Right: High quantity + High revenue → Star ingredients
-- Bottom-Right: High quantity but lower revenue → Low-margin ingredients
-- Top-Left: Low quantity but high revenue → Premium potential
-- Bottom-Left: Low usage and low return → Re-evaluate
+- 4 distinct groups:
+- Top-right: High quantity and high revenue: Garlic, Tomatoes, Red Onions, Red Peppers
+- Bottom-right: High quantity but lower revenue
+- Top-left: Good quantity with good corresponding revenue (potential ingredients that could be promoted)
+- Bottom-left: Low quantity and low revenue: large number of ingredients distributed here
 
 **Categories Sales: Average Price vs. Quantity Correlation**
 
-- Correlation Coefficient: -0.95 (strong negative)
-- Insight: Higher-priced categories have lower sales volume
+- Strong negative correlation: -0.95
 
-Segmented Insights:
+=> Categories that have high prices will have low quantities sold.
 
-- Top-Left: Low price, high quantity (Classic) → Popular, accessible items
-- Bottom-Right: High price, low quantity (Chicken, Supreme) → Premium but low demand
-- Consider repositioning or promotional pricing
+- 4 distinct groups:
+- Top-left: Low price and high quantity: Classic
+- Bottom-left: High price and low quantity: Veggies
+- Bottom-right: High price and low quantity: Supreme, Chicken
 
-**Order Frequency by Time**
+**Time Interval Between Orders**
 
-- High Order Times: 12 PM, 1 PM, 5–7 PM
-- Low Order Times: 2–3 PM, 8–9 PM
+- The peak hour is 12h, 13h, 17h, 18h, and 19h => when people have meals
+- Lower orders can be seen at 14h, 15h, 20h, 21h
+- It’s 23.34, the average time in minutes between orders
 
 ### Single and Multiple Item Orders
 
-<img width="848" alt="Image" src="https://github.com/user-attachments/assets/bae43bed-5f93-402f-9af7-172c299e9a91" />
+<img width="848" alt="Image" src="https://github.com/user-attachments/assets/da35caa0-c52c-4b61-9965-e304699b6bc5" />
 
 - Multi-item orders outnumber single-item orders by ~1.5x
+- Multiple-item orders (61%) are 1.5 times the single-item orders (38%) => user engagement
 - Insight: Customers tend to purchase more than one pizza per order, indicating potential for upselling and bundling strategies.
 
 ## 6. Business Recommendations
@@ -227,4 +250,7 @@ Segmented Insights:
     - Review the cost-benefit of keeping XL and XXL
 - **Ingredient Strategy**
     - Highlight top-performing ingredients in product design
-    - Consider removing or replacing bottom-tier ingredients
+    - Consider removing or replacing bottom-tier ingredients (Brie Carre Cheese or Soppresatte Salami)
+- **Campaigns Focus**
+    - Marketing campaign resources focus on Quarter 2
+    - Target lunch and dinner time to offer limited-time deals
